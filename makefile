@@ -1,0 +1,14 @@
+make: clean build run
+
+build: src/render.c
+	gcc -g \
+	-Iinclude \
+	-lSDL3 -lglfw \
+	-o triangle \
+	src/glad.c src/render.c
+
+run: build
+	./triangle
+
+clean:
+	rm -f triangle
