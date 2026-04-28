@@ -3,7 +3,7 @@ make: clean build run
 build: src/render.c
 	gcc -g \
 	-Iinclude \
-	-lSDL2 -lglfw \
+	-lSDL2 \
 	-o triangle \
 	src/glad.c src/render.c
 
