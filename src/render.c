@@ -1,10 +1,8 @@
-#include <SDL2/SDL.h>
-#include <SDL2/SDL_events.h>
-#include <SDL2/SDL_video.h>
-#include <SDL3/SDL_events.h>
 #include <stdbool.h>
 #include <stdio.h>
-#include <wchar.h>
+
+#include <SDL2/SDL.h>
+
 #include <glad/glad.h>
 
 #define SCREEN_HEIGHT 480
